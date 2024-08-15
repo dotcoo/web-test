@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ISO 格式化时间字符串测试</title>
+</head>
+<body>
+  <div id="el"></div>
+  <script>
+    try {
+      el.innerText = new Date('2024-08-15 04:55:08').getTime();
+    } catch (e) {
+      el.innerText = e.message;
+    }
+  </script>
+</body>
+</html>
